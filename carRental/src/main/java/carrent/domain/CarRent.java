@@ -14,7 +14,9 @@ public class CarRent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long rentId;
+    private Long id;
+
+    private String rentId;
 
     private String carId;
 

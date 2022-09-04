@@ -68,7 +68,7 @@
             me.values = temp.data._embedded.carRents;
             
             me.newValue = {
-                'rentId': 0,
+                'rentId': '',
                 'carId': '',
                 'userId': '',
                 'rentStartDate': '2022-09-04',
